@@ -1,5 +1,8 @@
 #include <stdio.h>
 
+// 题目要求
+// 使用 printf() 与 %d 格式化输出整数。
+
 int main()
 {
     int number;
