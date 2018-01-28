@@ -1,5 +1,8 @@
 #include <stdio.h>
 
+// 题目要求
+// C 语言实例 - 判断奇数/偶数
+
 int main()
 {
     int number=20;
