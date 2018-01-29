@@ -1,5 +1,8 @@
 #include <stdio.h>
 
+// 题目要求
+// 用户输入一个字符，判断该字符是否为一个字母。
+
 int main()
 {
 	char c;
