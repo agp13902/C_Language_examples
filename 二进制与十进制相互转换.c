@@ -15,7 +15,7 @@ int main()
     // 二进制转换为十进制
     long long n;
     printf("输入一个二进制数：\n");
-    scanf("%lld",n);
+    scanf("%lld",&n);
     printf("二进制数%lld转换为十进制数为%d",n,converBint(n));
 
     // 十进制转换为二进制
