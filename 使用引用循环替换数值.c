@@ -9,12 +9,12 @@ int main()
 {
 	int a,b,c;
 	printf("输入a,b和c的值：");
-	scanf("% %d %d",%a,%b,&c);
+	scanf("%d %d %d",&a,&b,&c);
 
 	printf("交换前：\n");
 	printf("a=%d\n b=%d\n c=%d\n",a,b,c);
 
-	cyclicSwap(a,b,c);
+	cyclicSwap(&a, &b, &c);
 
 	printf("交换后：\n");
 	printf("a=%d b=%d c=%d",a,b,c);
@@ -23,7 +23,7 @@ int main()
 }
 
 // 通过引用按顺序循环替换他们的值
-void cyclicSwap(int *a,int *b,int,int *c)
+void cyclicSwap(int *a,int *b,int *c)
 {
 	int tmp;
 
